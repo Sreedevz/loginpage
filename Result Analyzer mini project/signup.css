@@ -1,0 +1,56 @@
+.body{
+    margin:0;
+}
+.img-fluid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .generate-your {
+    margin: 0;
+  }
+  .start-your-new-container {
+    position:relative;
+    letter-spacing: -1.39px;
+    display: inline-block;
+    width: 468px;
+  }
+  .use-these-awesome-container {
+    position: relative;
+    font-size: var(--large-size);
+    line-height: 140%;
+    display: inline-block;
+    width: 368px;
+  }
+  .heading {
+    position: absolute;
+    top: 344px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .card-1,
+  .sign-up {
+    height: 959px;
+    overflow: hidden;
+  }
+  .card-1 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 720px;
+    font-size: 50px;
+    color: var(--white);
+  }
+  
